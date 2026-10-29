@@ -1,0 +1,11 @@
+LearnInDepth_SW.oil: \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/config.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/kernel.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/api.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/api_ioc.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/cortex-m/config.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/cortex-m/armv7em/config.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/cortex-m/armv7em/buildOptions.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/cortex-m/armv7em/stm32f407/config.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/cortex-m/armv7em/stm32f407/stm32f4discovery/config.oil \
+ /C/Users/Belal/Desktop/Autosar  OS Labs/AUTOSAR_OS/goil/templates/config/config2.5.oil
