@@ -1,0 +1,2 @@
+Rte_DoorLockIndication_SWC.c:25:9:Rte_IRead_DoorLockIndication_SWC_DoorLockIndication_R_DoorState_DoorState	4	static
+Rte_DoorLockIndication_SWC.c:29:16:Rte_Call_DoorLockIndication_SWC_R_LedControl_Switch_LedState	24	static

@@ -1,0 +1,2 @@
+Rte_DoorSensorAbstraction_SWC.c:23:6:Rte_IWrite_DoorSensorAbstraction_SWC_ReadDoorSensor_P_DoorState_DoorState	16	static
+Rte_DoorSensorAbstraction_SWC.c:27:10:Rte_IWriteRef_DoorSensorAbstraction_SWC_ReadDoorSensor_P_DoorState_DoorState	4	static

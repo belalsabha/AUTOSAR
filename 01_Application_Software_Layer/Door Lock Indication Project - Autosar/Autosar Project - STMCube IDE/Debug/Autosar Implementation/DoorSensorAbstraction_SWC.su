@@ -1,0 +1,2 @@
+DoorSensorAbstraction_SWC.c:14:6:ReadDoorSensor_Run	16	static
+DoorSensorAbstraction_SWC.c:19:16:SwitchLedState_Run	16	static
