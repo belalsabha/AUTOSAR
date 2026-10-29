@@ -1,0 +1,95 @@
+CPU ee {
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+ALARM Task1_Alarm {
+		ACTION = ACTIVATETASK {
+			TASK = Task1;
+		};
+		AUTOSTART = TRUE {
+			ALARMTIME = 30;
+			CYCLETIME = 30;
+		};
+		COUNTER = SystemCounter;
+	};
+	APPMODE AppStd;
+	COUNTER SystemCounter {
+		MINCYCLE = 1;
+		MAXALLOWEDVALUE = 255;
+		TICKSPERBASE = 1;
+		TYPE = HARDWARE {
+			DEVICE = "SysTick";
+			SYSTEM_TIMER = TRUE;
+		};
+	};
+	EVENT Task2_Event {
+		MASK = AUTO;
+	};
+	ISR EXTI0_C2 {
+		CATEGORY = 2;
+		SOURCE = "EXTI0";
+		PRIORITY = 30;
+	};
+	OS ee {
+		STARTUPHOOK = TRUE;
+		ERRORHOOK = TRUE;
+		SHUTDOWNHOOK = TRUE;
+		PRETASKHOOK = TRUE;
+		POSTTASKHOOK = TRUE;
+		KERNEL_TYPE = OSEK {
+			RQ = LL;
+		};
+		BOARD_DATA = NO_BOARD;
+		USEDYNAMICAPI = FALSE;
+		USEEXTENSIONAPI = FALSE;
+		STACKMONITORING = FALSE;
+	};
+	TASK Task1 {
+		PRIORITY = 1;
+		ACTIVATION = 1;
+		SCHEDULE = FULL;
+		AUTOSTART = TRUE {
+			APPMODE = AppStd;
+		};
+		STACK = SHARED;
+	};
+	TASK Task2 {
+		PRIORITY = 2;
+		ACTIVATION = 1;
+		SCHEDULE = FULL;
+		AUTOSTART = TRUE {
+			APPMODE = AppStd;
+		};
+		STACK = SHARED;
+		EVENT = Task2_Event;
+	};
+};
