@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 ../AUTOSAR_ARXML_Schema/AUTOSAR_00046.xsd">
+	<!--  Eng. Belal Hani Sabha -> SWC Composition Lab -->
+	<AR-PACKAGES>
+		<AR-PACKAGE>
+			<SHORT-NAME>SWC_Composition_Lab</SHORT-NAME>
+			<ELEMENTS>
+				<!-- 1. Define SENDER-RECEIVER INTERFACES-->
+				<!-- Sensor -> Application -->
+				<SENDER-RECEIVER-INTERFACE>
+					<SHORT-NAME>LightData_Interface</SHORT-NAME>
+					<DATA-ELEMENTS>
+						<VARIABLE-DATA-PROTOTYPE>
+							<SHORT-NAME>LightData</SHORT-NAME>
+							<TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_PlatformTypes/ImplementationDataTypes/uint32</TYPE-TREF>
+						</VARIABLE-DATA-PROTOTYPE>
+					</DATA-ELEMENTS>
+				</SENDER-RECEIVER-INTERFACE>
+				<!-- Application -> Actuator -->
+				<SENDER-RECEIVER-INTERFACE>
+					<SHORT-NAME>ActuatorData_Interface</SHORT-NAME>
+					<DATA-ELEMENTS>
+						<VARIABLE-DATA-PROTOTYPE>
+							<SHORT-NAME>ActuatorData</SHORT-NAME>
+							<TYPE-TREF DEST="IMPLEMENTATION-DATA-TYPE">/AUTOSAR_PlatformTypes/ImplementationDataTypes/uint32</TYPE-TREF>
+						</VARIABLE-DATA-PROTOTYPE>
+					</DATA-ELEMENTS>
+				</SENDER-RECEIVER-INTERFACE>
+				<!-- 2. Define SWCs -->
+				<!-- 2.1  SENSOR SWC -->
+				<SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+					<SHORT-NAME>Sensor_SWC</SHORT-NAME>
+					<PORTS>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>LightData_PPort</SHORT-NAME>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SWC_Composition_Lab/LightData_Interface</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+					</PORTS>
+				</SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+				<!-- 2.2 APPLICATION SWC -->
+				<APPLICATION-SW-COMPONENT-TYPE>
+					<SHORT-NAME>Application_Algorithm_SWC</SHORT-NAME>
+					<PORTS>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>LightData_RPort</SHORT-NAME>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SWC_Composition_Lab/LightData_Interface</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>ActuatorData_PPort</SHORT-NAME>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SWC_Composition_Lab/ActuatorData_Interface</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+					</PORTS>
+				</APPLICATION-SW-COMPONENT-TYPE>
+				<!-- 2.3 ACTUATOR SWC -->
+				<SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+					<SHORT-NAME>Actuator_SWC</SHORT-NAME>
+					<PORTS>
+						<R-PORT-PROTOTYPE>
+							<SHORT-NAME>ActuatorData_RPort</SHORT-NAME>
+							<REQUIRED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SWC_Composition_Lab/ActuatorData_Interface</REQUIRED-INTERFACE-TREF>
+						</R-PORT-PROTOTYPE>
+					</PORTS>
+				</SENSOR-ACTUATOR-SW-COMPONENT-TYPE>
+				<!-- 3. Define COMPOSITIONs -->
+				<!-- 3.1 COMPOSITION 1 -->
+				<COMPOSITION-SW-COMPONENT-TYPE>
+					<SHORT-NAME>Sensor_Algorithm_Composition</SHORT-NAME>
+					<PORTS>
+						<P-PORT-PROTOTYPE>
+							<SHORT-NAME>ActuatorData_Outer_PPort</SHORT-NAME>
+							<PROVIDED-INTERFACE-TREF DEST="SENDER-RECEIVER-INTERFACE">/SWC_Composition_Lab/ActuatorData_Interface</PROVIDED-INTERFACE-TREF>
+						</P-PORT-PROTOTYPE>
+					</PORTS>
+					<COMPONENTS>
+						<!-- Sensor instance -->
+						<SW-COMPONENT-PROTOTYPE>
+							<SHORT-NAME>Sensor_Instance</SHORT-NAME>
+							<TYPE-TREF DEST="SENSOR-ACTUATOR-SW-COMPONENT-TYPE">/SWC_Composition_Lab/Sensor_SWC</TYPE-TREF>
+						</SW-COMPONENT-PROTOTYPE>
+						<!-- Application instance -->
+						<SW-COMPONENT-PROTOTYPE>
+							<SHORT-NAME>Application_Instance</SHORT-NAME>
+							<TYPE-TREF DEST="APPLICATION-SW-COMPONENT-TYPE">/SWC_Composition_Lab/Application_Algorithm_SWC</TYPE-TREF>
+						</SW-COMPONENT-PROTOTYPE>
+					</COMPONENTS>
+					<CONNECTORS>
+						<ASSEMBLY-SW-CONNECTOR>
+							<SHORT-NAME>Sensor_To_Application</SHORT-NAME>
+							<PROVIDER-IREF>
+								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/SWC_Composition_Lab/Sensor_Algorithm_Composition/Sensor_Instance</CONTEXT-COMPONENT-REF>
+								<TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SWC_Composition_Lab/Sensor_SWC/LightData_PPort</TARGET-P-PORT-REF>
+							</PROVIDER-IREF>
+							<REQUESTER-IREF>
+								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/SWC_Composition_Lab/Sensor_Algorithm_Composition/Application_Instance</CONTEXT-COMPONENT-REF>
+								<TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SWC_Composition_Lab/Application_Algorithm_SWC/LightData_RPort</TARGET-R-PORT-REF>
+							</REQUESTER-IREF>
+						</ASSEMBLY-SW-CONNECTOR>
+						<DELEGATION-SW-CONNECTOR>
+							<SHORT-NAME>Application_To_Composition_Output</SHORT-NAME>
+							<INNER-PORT-IREF>
+								<P-PORT-IN-COMPOSITION-INSTANCE-REF>
+									<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/SWC_Composition_Lab/Sensor_Algorithm_Composition/Application_Instance</CONTEXT-COMPONENT-REF>
+									<TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SWC_Composition_Lab/Application_Algorithm_SWC/ActuatorData_PPort</TARGET-P-PORT-REF>
+								</P-PORT-IN-COMPOSITION-INSTANCE-REF>
+							</INNER-PORT-IREF>
+							<OUTER-PORT-REF DEST="P-PORT-PROTOTYPE">/SWC_Composition_Lab/Sensor_Algorithm_Composition/ActuatorData_Outer_PPort</OUTER-PORT-REF>
+						</DELEGATION-SW-CONNECTOR>
+					</CONNECTORS>
+				</COMPOSITION-SW-COMPONENT-TYPE>
+				<!-- 3.2 TOP-LEVEL COMPOSITION -->
+				<COMPOSITION-SW-COMPONENT-TYPE>
+					<SHORT-NAME>Complete_Vehicle_Composition</SHORT-NAME>
+					<COMPONENTS>
+						<!-- Actuator instance -->
+						<SW-COMPONENT-PROTOTYPE>
+							<SHORT-NAME>Actuator_Instance</SHORT-NAME>
+							<TYPE-TREF DEST="SENSOR-ACTUATOR-SW-COMPONENT-TYPE">/SWC_Composition_Lab/Actuator_SWC</TYPE-TREF>
+						</SW-COMPONENT-PROTOTYPE>
+						<!-- Composition 1 instance -->
+						<SW-COMPONENT-PROTOTYPE>
+							<SHORT-NAME>Sensor_Algorithm_Instance</SHORT-NAME>
+							<TYPE-TREF DEST="COMPOSITION-SW-COMPONENT-TYPE">/SWC_Composition_Lab/Sensor_Algorithm_Composition</TYPE-TREF>
+						</SW-COMPONENT-PROTOTYPE>
+					</COMPONENTS>
+					<CONNECTORS>
+						<ASSEMBLY-SW-CONNECTOR>
+							<SHORT-NAME>Composition_To_Actuator</SHORT-NAME>
+							<PROVIDER-IREF>
+								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/SWC_Composition_Lab/Complete_Vehicle_Composition/Sensor_Algorithm_Instance</CONTEXT-COMPONENT-REF>
+								<TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/SWC_Composition_Lab/Sensor_Algorithm_Composition/ActuatorData_Outer_PPort</TARGET-P-PORT-REF>
+							</PROVIDER-IREF>
+							<REQUESTER-IREF>
+								<CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/SWC_Composition_Lab/Complete_Vehicle_Composition/Actuator_Instance</CONTEXT-COMPONENT-REF>
+								<TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/SWC_Composition_Lab/Actuator_SWC/ActuatorData_RPort</TARGET-R-PORT-REF>
+							</REQUESTER-IREF>
+						</ASSEMBLY-SW-CONNECTOR>
+					</CONNECTORS>
+				</COMPOSITION-SW-COMPONENT-TYPE>
+			</ELEMENTS>
+		</AR-PACKAGE>
+	</AR-PACKAGES>
+</AUTOSAR>
