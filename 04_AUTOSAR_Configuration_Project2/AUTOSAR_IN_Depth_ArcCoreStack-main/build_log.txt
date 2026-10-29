@@ -1,0 +1,990 @@
+=============================================
+Cleaning up previous builds...
+
+==========[ BUILD INFO ]===========
+  BDIR:           ./learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1 [command line]
+  BOARDDIR:       stm32_stm3210c [command line]
+  COMPILER:        [undefined]
+  CROSS_COMPILE:  C:/ARM/bin/arm-none-eabi- [environment]
+  CURDIR:         /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0
+  SELECT_CONSOLE:  [file]
+
+==========[ /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1 ]===========
+make[1]: Entering directory `/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/obj_stm32_stm3210c'
+/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/scripts/rules.mk:48: Not using default cross compiler for architecture.
+/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/scripts/rules.mk:49: CROSS_COMPILE:         C:/ARM/bin/arm-none-eabi- [environment]
+/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/scripts/rules.mk:50: DEFAULT_CROSS_COMPILE: /c/ARM/bin/arm-none-eabi- [file]
+
+
+  >> Rules Clean /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/obj_stm32_stm3210c
+removed `Det.d'
+removed `Det.o'
+removed `EcuM.d'
+removed `EcuM.o'
+removed `EcuM_Callout_Stubs.d'
+removed `EcuM_Callout_Stubs.o'
+removed `EcuM_Main.d'
+removed `EcuM_Main.o'
+removed `EcuM_PBcfg.d'
+removed `EcuM_PBcfg.o'
+removed `LearnInDepth_lab.d'
+removed `LearnInDepth_lab.o'
+removed `LearnInDepth_lab1.elf'
+removed `LearnInDepth_lab1.map'
+removed `Mcu.d'
+removed `Mcu.o'
+removed `Mcu_Cfg.d'
+removed `Mcu_Cfg.o'
+removed `Os_Cfg.d'
+removed `Os_Cfg.o'
+removed `alarm.d'
+removed `alarm.o'
+removed `application.d'
+removed `application.o'
+removed `arch.d'
+removed `arch.o'
+removed `arch_krn.o'
+removed `arch_krn.s'
+removed `arch_offset.d'
+removed `arch_offset.h'
+removed `arch_offset.s'
+removed `asm_offset.h'
+removed `cirq_buffer.d'
+removed `cirq_buffer.o'
+removed `clib.d'
+removed `clib.o'
+removed `clib_port.d'
+removed `clib_port.o'
+removed `core_cm3.d'
+removed `core_cm3.o'
+removed `counter.d'
+removed `counter.o'
+removed `event.d'
+removed `event.o'
+removed `gcc_path_probe.c'
+removed `gcc_path_probe.o'
+removed `gcc_path_probe.tmp'
+removed `init.d'
+removed `init.o'
+removed `irq.d'
+removed `irq.o'
+removed `isr.d'
+removed `isr.o'
+removed `linkscript_gcc.lcf'
+removed `os_arctest.d'
+removed `os_arctest.o'
+removed `printf.d'
+removed `printf.o'
+removed `ramlog.d'
+removed `ramlog.o'
+removed `resource.d'
+removed `resource.o'
+removed `sched_table.d'
+removed `sched_table.o'
+removed `startup_stm32f10x.o'
+removed `stm32f103x8_EXTI_driver.d'
+removed `stm32f103x8_EXTI_driver.o'
+removed `stm32f103x8_RCC_driver.d'
+removed `stm32f103x8_RCC_driver.o'
+removed `stm32f103x8_SPI_Drver.d'
+removed `stm32f103x8_SPI_Drver.o'
+removed `stm32f103x8_USART_driver.d'
+removed `stm32f103x8_USART_driver.o'
+removed `stm32f103x8_gpio_driver.d'
+removed `stm32f103x8_gpio_driver.o'
+removed `stm32f10x_rcc.d'
+removed `stm32f10x_rcc.o'
+removed `sys_tick.d'
+removed `sys_tick.o'
+removed `system_hooks.d'
+removed `system_hooks.o'
+removed `task.d'
+removed `task.o'
+removed `xtoa.d'
+removed `xtoa.o'
+removed `/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/binaries/stm32_stm3210c/LearnInDepth_lab.axf'
+removed `/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/binaries/stm32_stm3210c/LearnInDepth_lab.elf'
+make[1]: Leaving directory `/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/obj_stm32_stm3210c'
+
+  >> Cleaning MAIN /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0
+
+  >>>>>>>>>  DONE  <<<<<<<<<
+
+=============================================
+Building the project...
+
+==========[ BUILD INFO ]===========
+  BDIR:           ./learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1 [command line]
+  BOARDDIR:       stm32_stm3210c [command line]
+  COMPILER:        [undefined]
+  CROSS_COMPILE:  C:/ARM/bin/arm-none-eabi- [environment]
+  CURDIR:         /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0
+  SELECT_CONSOLE:  [file]
+
+==========[ /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1 ]===========
+make[1]: Entering directory `/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/obj_stm32_stm3210c'
+/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/scripts/rules.mk:48: Not using default cross compiler for architecture.
+/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/scripts/rules.mk:49: CROSS_COMPILE:         C:/ARM/bin/arm-none-eabi- [environment]
+/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/scripts/rules.mk:50: DEFAULT_CROSS_COMPILE: /c/ARM/bin/arm-none-eabi- [file]
+
+>>>> Available modules: ADC CAN CANIF CANNM CANSM CANTP COM COMM CRC16 CRC32 DCM DEM DET DIO ECUM FLS GPT IOHWAB J1939TP KERNEL LWIP MCU NM PDUR PORT PWM RAMLOG RTE SCHM SLEEP TCF WDGM
+>>>> Used modules:      DET ECUM KERNEL MCU
+  >> asm offset gen /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/system/kernel/asm_offset.c
+  >> generating arch_offset.h from /d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/arch_offset.c
+
+  >> CC LearnInDepth_lab.c
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:25:0: warning: "SRAM_BASE" redefined
+ #define SRAM_BASE                   0x20000000UL
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1259:0: note: this is the location of the previous definition
+ #define SRAM_BASE             ((uint32_t)0x22000000) /*!< SRAM base address in the alias region */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:41:0: warning: "RCC_BASE" redefined
+ #define RCC_BASE              (Peripherals_BASE + 0x00021000UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1346:0: note: this is the location of the previous definition
+ #define RCC_BASE              (AHBPERIPH_BASE + 0x1000)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:49:0: warning: "GPIOA_BASE" redefined
+ #define GPIOA_BASE            (Peripherals_BASE + 0x00010800UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1309:0: note: this is the location of the previous definition
+ #define GPIOA_BASE            (APB2PERIPH_BASE + 0x0800)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:50:0: warning: "GPIOB_BASE" redefined
+ #define GPIOB_BASE            (Peripherals_BASE + 0x00010C00UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1310:0: note: this is the location of the previous definition
+ #define GPIOB_BASE            (APB2PERIPH_BASE + 0x0C00)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:52:0: warning: "GPIOC_BASE" redefined
+ #define GPIOC_BASE            (Peripherals_BASE + 0x00011000UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1311:0: note: this is the location of the previous definition
+ #define GPIOC_BASE            (APB2PERIPH_BASE + 0x1000)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:53:0: warning: "GPIOD_BASE" redefined
+ #define GPIOD_BASE            (Peripherals_BASE + 0x00011400UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1312:0: note: this is the location of the previous definition
+ #define GPIOD_BASE            (APB2PERIPH_BASE + 0x1400)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:55:0: warning: "GPIOE_BASE" redefined
+ #define GPIOE_BASE            (Peripherals_BASE + 0x00011800UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1313:0: note: this is the location of the previous definition
+ #define GPIOE_BASE            (APB2PERIPH_BASE + 0x1800)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:58:0: warning: "AFIO_BASE" redefined
+ #define AFIO_BASE             (Peripherals_BASE + 0x00010000UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1307:0: note: this is the location of the previous definition
+ #define AFIO_BASE             (APB2PERIPH_BASE + 0x0000)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:59:0: warning: "EXTI_BASE" redefined
+ #define EXTI_BASE             (Peripherals_BASE + 0x00010400UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1308:0: note: this is the location of the previous definition
+ #define EXTI_BASE             (APB2PERIPH_BASE + 0x0400)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:61:0: warning: "USART1_BASE" redefined
+ #define USART1_BASE             (Peripherals_BASE + 0x00013800UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1321:0: note: this is the location of the previous definition
+ #define USART1_BASE           (APB2PERIPH_BASE + 0x3800)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:64:0: warning: "SPI1_BASE" redefined
+ #define SPI1_BASE             (Peripherals_BASE + 0x00013000UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1319:0: note: this is the location of the previous definition
+ #define SPI1_BASE             (APB2PERIPH_BASE + 0x3000)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:67:0: warning: "I2C1_BASE" redefined
+ #define I2C1_BASE             (0x40005400UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1298:0: note: this is the location of the previous definition
+ #define I2C1_BASE             (APB1PERIPH_BASE + 0x5400)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:68:0: warning: "I2C2_BASE" redefined
+ #define I2C2_BASE             (0x40005800UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1299:0: note: this is the location of the previous definition
+ #define I2C2_BASE             (APB1PERIPH_BASE + 0x5800)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:73:0: warning: "USART2_BASE" redefined
+ #define USART2_BASE             (Peripherals_BASE + 0x00004400UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1292:0: note: this is the location of the previous definition
+ #define USART2_BASE           (APB1PERIPH_BASE + 0x4400)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:74:0: warning: "USART3_BASE" redefined
+ #define USART3_BASE             (Peripherals_BASE + 0x00004800UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1293:0: note: this is the location of the previous definition
+ #define USART3_BASE           (APB1PERIPH_BASE + 0x4800)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:76:0: warning: "SPI2_BASE" redefined
+ #define SPI2_BASE             (Peripherals_BASE + 0x00003800UL)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1288:0: note: this is the location of the previous definition
+ #define SPI2_BASE             (APB1PERIPH_BASE + 0x3800)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:207:0: warning: "GPIOA" redefined
+ #define GPIOA               ((GPIO_TypeDef_MCAL *)GPIOA_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1403:0: note: this is the location of the previous definition
+ #define GPIOA               ((GPIO_TypeDef *) GPIOA_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:208:0: warning: "GPIOB" redefined
+ #define GPIOB               ((GPIO_TypeDef_MCAL *)GPIOB_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1404:0: note: this is the location of the previous definition
+ #define GPIOB               ((GPIO_TypeDef *) GPIOB_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:209:0: warning: "GPIOC" redefined
+ #define GPIOC               ((GPIO_TypeDef_MCAL *)GPIOC_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1405:0: note: this is the location of the previous definition
+ #define GPIOC               ((GPIO_TypeDef *) GPIOC_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:210:0: warning: "GPIOD" redefined
+ #define GPIOD               ((GPIO_TypeDef_MCAL *)GPIOD_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1406:0: note: this is the location of the previous definition
+ #define GPIOD               ((GPIO_TypeDef *) GPIOD_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:211:0: warning: "GPIOE" redefined
+ #define GPIOE               ((GPIO_TypeDef_MCAL *)GPIOE_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1407:0: note: this is the location of the previous definition
+ #define GPIOE               ((GPIO_TypeDef *) GPIOE_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:214:0: warning: "RCC" redefined
+ #define RCC                 ((RCC_TypeDef_MCAL *)RCC_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1438:0: note: this is the location of the previous definition
+ #define RCC                 ((RCC_TypeDef *) RCC_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:216:0: warning: "AFIO" redefined
+ #define AFIO                ((AFIO_TypeDef_MCAL *)AFIO_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1401:0: note: this is the location of the previous definition
+ #define AFIO                ((AFIO_TypeDef *) AFIO_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:217:0: warning: "EXTI" redefined
+ #define EXTI                ((EXTI_TypeDef_MCAL *)EXTI_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1402:0: note: this is the location of the previous definition
+ #define EXTI                ((EXTI_TypeDef *) EXTI_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:219:0: warning: "USART1" redefined
+ #define USART1                ((USART_TypeDef_MCAL *)USART1_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1415:0: note: this is the location of the previous definition
+ #define USART1              ((USART_TypeDef *) USART1_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:220:0: warning: "USART2" redefined
+ #define USART2                ((USART_TypeDef_MCAL *)USART2_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1389:0: note: this is the location of the previous definition
+ #define USART2              ((USART_TypeDef *) USART2_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:221:0: warning: "USART3" redefined
+ #define USART3                ((USART_TypeDef_MCAL *)USART3_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1390:0: note: this is the location of the previous definition
+ #define USART3              ((USART_TypeDef *) USART3_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:224:0: warning: "SPI1" redefined
+ #define SPI1                ((SPI_TypeDef_MCAL *)SPI1_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1413:0: note: this is the location of the previous definition
+ #define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:225:0: warning: "SPI2" redefined
+ #define SPI2                ((SPI_TypeDef_MCAL *)SPI2_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1387:0: note: this is the location of the previous definition
+ #define SPI2                ((SPI_TypeDef *) SPI2_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:228:0: warning: "I2C1" redefined
+ #define I2C1                ((I2C_TypeDef_MCAL *)I2C1_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1393:0: note: this is the location of the previous definition
+ #define I2C1                ((I2C_TypeDef *) I2C1_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:229:0: warning: "I2C2" redefined
+ #define I2C2                ((I2C_TypeDef_MCAL *)I2C2_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:1394:0: note: this is the location of the previous definition
+ #define I2C2                ((I2C_TypeDef *) I2C2_BASE)
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:367:0: warning: "I2C_CR1_PE" redefined
+ #define I2C_CR1_PE                          I2C_CR1_PE_Msk                     /*!< Peripheral Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7546:0: note: this is the location of the previous definition
+ #define  I2C_CR1_PE                          ((uint16_t)0x0001)            /*!<Peripheral Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:370:0: warning: "I2C_CR1_SMBUS" redefined
+ #define I2C_CR1_SMBUS                       I2C_CR1_SMBUS_Msk                  /*!< SMBus Mode */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7547:0: note: this is the location of the previous definition
+ #define  I2C_CR1_SMBUS                       ((uint16_t)0x0002)            /*!<SMBus Mode */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:373:0: warning: "I2C_CR1_SMBTYPE" redefined
+ #define I2C_CR1_SMBTYPE                     I2C_CR1_SMBTYPE_Msk                /*!< SMBus Type */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7548:0: note: this is the location of the previous definition
+ #define  I2C_CR1_SMBTYPE                     ((uint16_t)0x0008)            /*!<SMBus Type */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:376:0: warning: "I2C_CR1_ENARP" redefined
+ #define I2C_CR1_ENARP                       I2C_CR1_ENARP_Msk                  /*!< ARP Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7549:0: note: this is the location of the previous definition
+ #define  I2C_CR1_ENARP                       ((uint16_t)0x0010)            /*!<ARP Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:379:0: warning: "I2C_CR1_ENPEC" redefined
+ #define I2C_CR1_ENPEC                       I2C_CR1_ENPEC_Msk                  /*!< PEC Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7550:0: note: this is the location of the previous definition
+ #define  I2C_CR1_ENPEC                       ((uint16_t)0x0020)            /*!<PEC Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:382:0: warning: "I2C_CR1_ENGC" redefined
+ #define I2C_CR1_ENGC                        I2C_CR1_ENGC_Msk                   /*!< General Call Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7551:0: note: this is the location of the previous definition
+ #define  I2C_CR1_ENGC                        ((uint16_t)0x0040)            /*!<General Call Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:385:0: warning: "I2C_CR1_NOSTRETCH" redefined
+ #define I2C_CR1_NOSTRETCH                   I2C_CR1_NOSTRETCH_Msk              /*!< Clock Stretching Disable (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7552:0: note: this is the location of the previous definition
+ #define  I2C_CR1_NOSTRETCH                   ((uint16_t)0x0080)            /*!<Clock Stretching Disable (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:388:0: warning: "I2C_CR1_START" redefined
+ #define I2C_CR1_START                       I2C_CR1_START_Msk                  /*!< Start Generation */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7553:0: note: this is the location of the previous definition
+ #define  I2C_CR1_START                       ((uint16_t)0x0100)            /*!<Start Generation */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:391:0: warning: "I2C_CR1_STOP" redefined
+ #define I2C_CR1_STOP                        I2C_CR1_STOP_Msk                   /*!< Stop Generation */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7554:0: note: this is the location of the previous definition
+ #define  I2C_CR1_STOP                        ((uint16_t)0x0200)            /*!<Stop Generation */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:394:0: warning: "I2C_CR1_ACK" redefined
+ #define I2C_CR1_ACK                         I2C_CR1_ACK_Msk                    /*!< Acknowledge Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7555:0: note: this is the location of the previous definition
+ #define  I2C_CR1_ACK                         ((uint16_t)0x0400)            /*!<Acknowledge Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:397:0: warning: "I2C_CR1_POS" redefined
+ #define I2C_CR1_POS                         I2C_CR1_POS_Msk                    /*!< Acknowledge/PEC Position (for data reception) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7556:0: note: this is the location of the previous definition
+ #define  I2C_CR1_POS                         ((uint16_t)0x0800)            /*!<Acknowledge/PEC Position (for data reception) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:400:0: warning: "I2C_CR1_PEC" redefined
+ #define I2C_CR1_PEC                         I2C_CR1_PEC_Msk                    /*!< Packet Error Checking */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7557:0: note: this is the location of the previous definition
+ #define  I2C_CR1_PEC                         ((uint16_t)0x1000)            /*!<Packet Error Checking */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:403:0: warning: "I2C_CR1_ALERT" redefined
+ #define I2C_CR1_ALERT                       I2C_CR1_ALERT_Msk                  /*!< SMBus Alert */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7558:0: note: this is the location of the previous definition
+ #define  I2C_CR1_ALERT                       ((uint16_t)0x2000)            /*!<SMBus Alert */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:406:0: warning: "I2C_CR1_SWRST" redefined
+ #define I2C_CR1_SWRST                       I2C_CR1_SWRST_Msk                  /*!< Software Reset */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7559:0: note: this is the location of the previous definition
+ #define  I2C_CR1_SWRST                       ((uint16_t)0x8000)            /*!<Software Reset */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:410:0: warning: "I2C_CR2_FREQ" redefined
+ #define I2C_CR2_FREQ                        I2C_CR2_FREQ_Msk                   /*!< FREQ[5:0] bits (Peripheral Clock Frequency) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7562:0: note: this is the location of the previous definition
+ #define  I2C_CR2_FREQ                        ((uint16_t)0x003F)            /*!<FREQ[5:0] bits (Peripheral Clock Frequency) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:413:0: warning: "I2C_CR2_ITERREN" redefined
+ #define I2C_CR2_ITERREN                     I2C_CR2_ITERREN_Msk                /*!< Error Interrupt Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7570:0: note: this is the location of the previous definition
+ #define  I2C_CR2_ITERREN                     ((uint16_t)0x0100)            /*!<Error Interrupt Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:416:0: warning: "I2C_CR2_ITEVTEN" redefined
+ #define I2C_CR2_ITEVTEN                     I2C_CR2_ITEVTEN_Msk                /*!< Event Interrupt Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7571:0: note: this is the location of the previous definition
+ #define  I2C_CR2_ITEVTEN                     ((uint16_t)0x0200)            /*!<Event Interrupt Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:419:0: warning: "I2C_CR2_ITBUFEN" redefined
+ #define I2C_CR2_ITBUFEN                     I2C_CR2_ITBUFEN_Msk                /*!< Buffer Interrupt Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7572:0: note: this is the location of the previous definition
+ #define  I2C_CR2_ITBUFEN                     ((uint16_t)0x0400)            /*!<Buffer Interrupt Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:422:0: warning: "I2C_CR2_DMAEN" redefined
+ #define I2C_CR2_DMAEN                       I2C_CR2_DMAEN_Msk                  /*!< DMA Requests Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7573:0: note: this is the location of the previous definition
+ #define  I2C_CR2_DMAEN                       ((uint16_t)0x0800)            /*!<DMA Requests Enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:425:0: warning: "I2C_CR2_LAST" redefined
+ #define I2C_CR2_LAST                        I2C_CR2_LAST_Msk                   /*!< DMA Last Transfer */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7574:0: note: this is the location of the previous definition
+ #define  I2C_CR2_LAST                        ((uint16_t)0x1000)            /*!<DMA Last Transfer */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:429:0: warning: "I2C_OAR2_ENDUAL" redefined
+ #define I2C_OAR2_ENDUAL                     I2C_OAR2_ENDUAL_Msk                /*!< Dual addressing mode enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7594:0: note: this is the location of the previous definition
+ #define  I2C_OAR2_ENDUAL                     ((uint8_t)0x01)               /*!<Dual addressing mode enable */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:434:0: warning: "I2C_SR1_SB" redefined
+ #define I2C_SR1_SB                          I2C_SR1_SB_Msk                     /*!< Start Bit (Master mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7601:0: note: this is the location of the previous definition
+ #define  I2C_SR1_SB                          ((uint16_t)0x0001)            /*!<Start Bit (Master mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:437:0: warning: "I2C_SR1_ADDR" redefined
+ #define I2C_SR1_ADDR                        I2C_SR1_ADDR_Msk                   /*!< Address sent (master mode)/matched (slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7602:0: note: this is the location of the previous definition
+ #define  I2C_SR1_ADDR                        ((uint16_t)0x0002)            /*!<Address sent (master mode)/matched (slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:440:0: warning: "I2C_SR1_BTF" redefined
+ #define I2C_SR1_BTF                         I2C_SR1_BTF_Msk                    /*!< Byte Transfer Finished */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7603:0: note: this is the location of the previous definition
+ #define  I2C_SR1_BTF                         ((uint16_t)0x0004)            /*!<Byte Transfer Finished */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:443:0: warning: "I2C_SR1_ADD10" redefined
+ #define I2C_SR1_ADD10                       I2C_SR1_ADD10_Msk                  /*!< 10-bit header sent (Master mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7604:0: note: this is the location of the previous definition
+ #define  I2C_SR1_ADD10                       ((uint16_t)0x0008)            /*!<10-bit header sent (Master mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:446:0: warning: "I2C_SR1_STOPF" redefined
+ #define I2C_SR1_STOPF                       I2C_SR1_STOPF_Msk                  /*!< Stop detection (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7605:0: note: this is the location of the previous definition
+ #define  I2C_SR1_STOPF                       ((uint16_t)0x0010)            /*!<Stop detection (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:449:0: warning: "I2C_SR1_RXNE" redefined
+ #define I2C_SR1_RXNE                        I2C_SR1_RXNE_Msk                   /*!< Data Register not Empty (receivers) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7606:0: note: this is the location of the previous definition
+ #define  I2C_SR1_RXNE                        ((uint16_t)0x0040)            /*!<Data Register not Empty (receivers) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:452:0: warning: "I2C_SR1_TXE" redefined
+ #define I2C_SR1_TXE                         I2C_SR1_TXE_Msk                    /*!< Data Register Empty (transmitters) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7607:0: note: this is the location of the previous definition
+ #define  I2C_SR1_TXE                         ((uint16_t)0x0080)            /*!<Data Register Empty (transmitters) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:455:0: warning: "I2C_SR1_BERR" redefined
+ #define I2C_SR1_BERR                        I2C_SR1_BERR_Msk                   /*!< Bus Error */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7608:0: note: this is the location of the previous definition
+ #define  I2C_SR1_BERR                        ((uint16_t)0x0100)            /*!<Bus Error */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:458:0: warning: "I2C_SR1_ARLO" redefined
+ #define I2C_SR1_ARLO                        I2C_SR1_ARLO_Msk                   /*!< Arbitration Lost (master mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7609:0: note: this is the location of the previous definition
+ #define  I2C_SR1_ARLO                        ((uint16_t)0x0200)            /*!<Arbitration Lost (master mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:461:0: warning: "I2C_SR1_AF" redefined
+ #define I2C_SR1_AF                          I2C_SR1_AF_Msk                     /*!< Acknowledge Failure */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7610:0: note: this is the location of the previous definition
+ #define  I2C_SR1_AF                          ((uint16_t)0x0400)            /*!<Acknowledge Failure */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:464:0: warning: "I2C_SR1_OVR" redefined
+ #define I2C_SR1_OVR                         I2C_SR1_OVR_Msk                    /*!< Overrun/Underrun */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7611:0: note: this is the location of the previous definition
+ #define  I2C_SR1_OVR                         ((uint16_t)0x0800)            /*!<Overrun/Underrun */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:467:0: warning: "I2C_SR1_PECERR" redefined
+ #define I2C_SR1_PECERR                      I2C_SR1_PECERR_Msk                 /*!< PEC Error in reception */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7612:0: note: this is the location of the previous definition
+ #define  I2C_SR1_PECERR                      ((uint16_t)0x1000)            /*!<PEC Error in reception */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:470:0: warning: "I2C_SR1_TIMEOUT" redefined
+ #define I2C_SR1_TIMEOUT                     I2C_SR1_TIMEOUT_Msk                /*!< Timeout or Tlow Error */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7613:0: note: this is the location of the previous definition
+ #define  I2C_SR1_TIMEOUT                     ((uint16_t)0x4000)            /*!<Timeout or Tlow Error */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:473:0: warning: "I2C_SR1_SMBALERT" redefined
+ #define I2C_SR1_SMBALERT                    I2C_SR1_SMBALERT_Msk               /*!< SMBus Alert */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7614:0: note: this is the location of the previous definition
+ #define  I2C_SR1_SMBALERT                    ((uint16_t)0x8000)            /*!<SMBus Alert */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:478:0: warning: "I2C_SR2_MSL" redefined
+ #define I2C_SR2_MSL                         I2C_SR2_MSL_Msk                    /*!< Master/Slave */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7617:0: note: this is the location of the previous definition
+ #define  I2C_SR2_MSL                         ((uint16_t)0x0001)            /*!<Master/Slave */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:481:0: warning: "I2C_SR2_BUSY" redefined
+ #define I2C_SR2_BUSY                        I2C_SR2_BUSY_Msk                   /*!< Bus Busy */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7618:0: note: this is the location of the previous definition
+ #define  I2C_SR2_BUSY                        ((uint16_t)0x0002)            /*!<Bus Busy */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:484:0: warning: "I2C_SR2_TRA" redefined
+ #define I2C_SR2_TRA                         I2C_SR2_TRA_Msk                    /*!< Transmitter/Receiver */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7619:0: note: this is the location of the previous definition
+ #define  I2C_SR2_TRA                         ((uint16_t)0x0004)            /*!<Transmitter/Receiver */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:487:0: warning: "I2C_SR2_GENCALL" redefined
+ #define I2C_SR2_GENCALL                     I2C_SR2_GENCALL_Msk                /*!< General Call Address (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7620:0: note: this is the location of the previous definition
+ #define  I2C_SR2_GENCALL                     ((uint16_t)0x0010)            /*!<General Call Address (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:490:0: warning: "I2C_SR2_SMBDEFAULT" redefined
+ #define I2C_SR2_SMBDEFAULT                  I2C_SR2_SMBDEFAULT_Msk             /*!< SMBus Device Default Address (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7621:0: note: this is the location of the previous definition
+ #define  I2C_SR2_SMBDEFAULT                  ((uint16_t)0x0020)            /*!<SMBus Device Default Address (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:493:0: warning: "I2C_SR2_SMBHOST" redefined
+ #define I2C_SR2_SMBHOST                     I2C_SR2_SMBHOST_Msk                /*!< SMBus Host Header (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7622:0: note: this is the location of the previous definition
+ #define  I2C_SR2_SMBHOST                     ((uint16_t)0x0040)            /*!<SMBus Host Header (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:496:0: warning: "I2C_SR2_DUALF" redefined
+ #define I2C_SR2_DUALF                       I2C_SR2_DUALF_Msk                  /*!< Dual Flag (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7623:0: note: this is the location of the previous definition
+ #define  I2C_SR2_DUALF                       ((uint16_t)0x0080)            /*!<Dual Flag (Slave mode) */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:14:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/STM32F103x8.h:499:0: warning: "I2C_SR2_PEC" redefined
+ #define I2C_SR2_PEC                         I2C_SR2_PEC_Msk                    /*!< Packet Error Checking Register */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/arm/Cpu.h:22:0,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/include/Os.h:30,
+                 from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:7:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/arch/arm/arm_cm3/kernel/stm32f10x.h:7624:0: note: this is the location of the previous definition
+ #define  I2C_SR2_PEC                         ((uint16_t)0xFF00)            /*!<Packet Error Checking Register */
+ 
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:13:0:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c: In function 'bTask':
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_USART_driver.h:89:46: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define UART_Parity__EVEN                    ((uint32_t)1<<10)
+                                              ^
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:55:24: note: in expansion of macro 'UART_Parity__EVEN'
+  UART1_config.Parity = UART_Parity__EVEN ;
+                        ^~~~~~~~~~~~~~~~~
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_USART_driver.h:97:46: warning: large integer implicitly truncated to unsigned type [-Woverflow]
+ #define UART_StopBits__2                     (uint32_t)(2<<12)
+                                              ^
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:57:26: note: in expansion of macro 'UART_StopBits__2'
+  UART1_config.StopBits = UART_StopBits__2 ;
+                          ^~~~~~~~~~~~~~~~
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c: In function 'LearnIndepth_exTask':
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:72:14: error: redefinition of 'string1'
+  const char *string1 = "AUTOSAR IN Depth : LearnIndepth_exTask  is triggred -> Alarm1 Set Event  \n";
+              ^~~~~~~
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:71:14: note: previous definition of 'string1' was here
+  const char *string1 = "AUTOSAR IN Depth : LearnIndepth_exTask  is triggred  \n";
+              ^~~~~~~
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:79:14: error: 'string2' undeclared (first use in this function); did you mean 'string1'?
+   sendString(string2);
+              ^~~~~~~
+              string1
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:79:14: note: each undeclared identifier is reported only once for each function it appears in
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:81:30: warning: passing argument 2 of 'MCAL_GPIO_TogglePin' makes integer from pointer without a cast [-Wint-conversion]
+   MCAL_GPIO_TogglePin(GPIOA, &GPIOApin2cfg);
+                              ^
+In file included from d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/LearnInDepth_lab.c:12:0:
+d:/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/stm32f103x8_gpio_driver.h:128:6: note: expected 'uint16_t {aka short unsigned int}' but argument is of type 'GPIO_PinConfig_t * {aka struct <anonymous> *}'
+ void MCAL_GPIO_TogglePin  (GPIO_TypeDef_MCAL *GPIOx , uint16_t PinNumber);
+      ^~~~~~~~~~~~~~~~~~~
+make[1]: *** [LearnInDepth_lab.o] Error 1
+make[1]: Leaving directory `/d/ArcCore-1-master/yarapatmaged/classic-platform-2.18.0/classic-platform-2.18.0/learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1/obj_stm32_stm3210c'
+make: *** [learn_in_depth_labs/stm32_stm3210c/labs/LearnInDepth_lab1] Error 2
+=============================================
+Generating the axf file...
+Error: No .elf file found in ./binaries/stm32_stm3210c
+  >>>>>>>>> you did great job : professional embedded system engineer ;) <<<<<<<<<
+  >>>>>>>>> God grant you success and bless your life :) <<<<<<<<<

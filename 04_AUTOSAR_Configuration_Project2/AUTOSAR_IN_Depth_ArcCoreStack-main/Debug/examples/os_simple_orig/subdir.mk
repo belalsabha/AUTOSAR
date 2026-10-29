@@ -1,0 +1,31 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../examples/os_simple_orig/os_simple.c 
+
+C_DEPS += \
+./examples/os_simple_orig/os_simple.d 
+
+OBJS += \
+./examples/os_simple_orig/os_simple.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+examples/os_simple_orig/%.o: ../examples/os_simple_orig/%.c examples/os_simple_orig/subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
+clean: clean-examples-2f-os_simple_orig
+
+clean-examples-2f-os_simple_orig:
+	-$(RM) ./examples/os_simple_orig/os_simple.d ./examples/os_simple_orig/os_simple.o
+
+.PHONY: clean-examples-2f-os_simple_orig
+

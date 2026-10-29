@@ -1,0 +1,52 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+C_SRCS += \
+../boards/stm32_stm3210c/examples/com_simple/config/CanIf_Cfg.c \
+../boards/stm32_stm3210c/examples/com_simple/config/Can_Lcfg.c \
+../boards/stm32_stm3210c/examples/com_simple/config/Com_PbCfg.c \
+../boards/stm32_stm3210c/examples/com_simple/config/EcuM_PBcfg.c \
+../boards/stm32_stm3210c/examples/com_simple/config/Mcu_Cfg.c \
+../boards/stm32_stm3210c/examples/com_simple/config/Os_Cfg.c \
+../boards/stm32_stm3210c/examples/com_simple/config/PduR_PbCfg.c \
+../boards/stm32_stm3210c/examples/com_simple/config/Port_Cfg.c 
+
+C_DEPS += \
+./boards/stm32_stm3210c/examples/com_simple/config/CanIf_Cfg.d \
+./boards/stm32_stm3210c/examples/com_simple/config/Can_Lcfg.d \
+./boards/stm32_stm3210c/examples/com_simple/config/Com_PbCfg.d \
+./boards/stm32_stm3210c/examples/com_simple/config/EcuM_PBcfg.d \
+./boards/stm32_stm3210c/examples/com_simple/config/Mcu_Cfg.d \
+./boards/stm32_stm3210c/examples/com_simple/config/Os_Cfg.d \
+./boards/stm32_stm3210c/examples/com_simple/config/PduR_PbCfg.d \
+./boards/stm32_stm3210c/examples/com_simple/config/Port_Cfg.d 
+
+OBJS += \
+./boards/stm32_stm3210c/examples/com_simple/config/CanIf_Cfg.o \
+./boards/stm32_stm3210c/examples/com_simple/config/Can_Lcfg.o \
+./boards/stm32_stm3210c/examples/com_simple/config/Com_PbCfg.o \
+./boards/stm32_stm3210c/examples/com_simple/config/EcuM_PBcfg.o \
+./boards/stm32_stm3210c/examples/com_simple/config/Mcu_Cfg.o \
+./boards/stm32_stm3210c/examples/com_simple/config/Os_Cfg.o \
+./boards/stm32_stm3210c/examples/com_simple/config/PduR_PbCfg.o \
+./boards/stm32_stm3210c/examples/com_simple/config/Port_Cfg.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+boards/stm32_stm3210c/examples/com_simple/config/%.o: ../boards/stm32_stm3210c/examples/com_simple/config/%.c boards/stm32_stm3210c/examples/com_simple/config/subdir.mk
+	@echo 'Building file: $<'
+	@echo 'Invoking: Cross GCC Compiler'
+	gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" -o "$@" "$<"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+
+clean: clean-boards-2f-stm32_stm3210c-2f-examples-2f-com_simple-2f-config
+
+clean-boards-2f-stm32_stm3210c-2f-examples-2f-com_simple-2f-config:
+	-$(RM) ./boards/stm32_stm3210c/examples/com_simple/config/CanIf_Cfg.d ./boards/stm32_stm3210c/examples/com_simple/config/CanIf_Cfg.o ./boards/stm32_stm3210c/examples/com_simple/config/Can_Lcfg.d ./boards/stm32_stm3210c/examples/com_simple/config/Can_Lcfg.o ./boards/stm32_stm3210c/examples/com_simple/config/Com_PbCfg.d ./boards/stm32_stm3210c/examples/com_simple/config/Com_PbCfg.o ./boards/stm32_stm3210c/examples/com_simple/config/EcuM_PBcfg.d ./boards/stm32_stm3210c/examples/com_simple/config/EcuM_PBcfg.o ./boards/stm32_stm3210c/examples/com_simple/config/Mcu_Cfg.d ./boards/stm32_stm3210c/examples/com_simple/config/Mcu_Cfg.o ./boards/stm32_stm3210c/examples/com_simple/config/Os_Cfg.d ./boards/stm32_stm3210c/examples/com_simple/config/Os_Cfg.o ./boards/stm32_stm3210c/examples/com_simple/config/PduR_PbCfg.d ./boards/stm32_stm3210c/examples/com_simple/config/PduR_PbCfg.o ./boards/stm32_stm3210c/examples/com_simple/config/Port_Cfg.d ./boards/stm32_stm3210c/examples/com_simple/config/Port_Cfg.o
+
+.PHONY: clean-boards-2f-stm32_stm3210c-2f-examples-2f-com_simple-2f-config
+

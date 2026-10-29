@@ -1,0 +1,30 @@
+os_arctest.o: \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/os_arctest.c \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/include/internal.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/Os.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/clib/assert.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/clib/stdio.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/clib/clib.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/Std_Types.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/Platform_Types.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/Compiler.h \
+ ../config/Os_Cfg.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/MemMap.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/arm/Cpu.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/arch/arm/arm_cm3/kernel/stm32f10x.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/arch/arm/arm_cm3/kernel/core_cm3.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/Std_Types.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/sys/queue.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/Ramlog.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/device_serial.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/sys/queue.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/xtoa.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/include/task_i.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/include/resource_i.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/os_config_macros.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/include/internal.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/include/sys.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/include/task_i.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/isr.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/system/kernel/include/resource_i.h \
+ c:/Users/Belal/Desktop/AUTOSAR_Config_Project2/AUTOSAR_IN_Depth_ArcCoreStack-main/include/arc.h
