@@ -36,7 +36,7 @@ A major part of this project is understanding how the AUTOSAR Operating System i
 
 The configuration process defines the required OS objects and parameters, which are then used as part of the project generation and build workflow.
 
-![OS Configuration](AUTOSAR_IN_Depth_ArcCoreStack-main/tool/OS%20Configuration/OS%20Configuration.png)
+![OS Configuration](md/OS%20Configuration.png)
 
 ## Build Process
 
@@ -46,17 +46,17 @@ The build process was explored using the provided project scripts and the ARM GC
 
 ### Build in Progress
 
-![Build](AUTOSAR_IN_Depth_ArcCoreStack-main/tool/OS%20Configuration/Build.png)
+![Build](md/Build.png)
 
 ### Build Completed
 
-![Build Done](AUTOSAR_IN_Depth_ArcCoreStack-main/tool/OS%20Configuration/build%20done.png)
+![Build Done](md/build%20done.png)
 
 ## Keil Simulation
 
 After building the project, Keil µVision was used to simulate and investigate the system behavior.
 
-![Keil Simulation](AUTOSAR_IN_Depth_ArcCoreStack-main/tool/OS%20Configuration/Keil_Sim.png)
+![Keil Simulation](md/Keil_Sim.png)
 
 ## Development Workflow
 
@@ -85,6 +85,12 @@ The general workflow explored in this project includes:
 
 ```text
 04_AUTOSAR_Configuration_Project2/
+├── README.md
+├── md/
+│   ├── OS Configuration.png
+│   ├── Build.png
+│   ├── build done.png
+│   └── Keil_Sim.png
 └── AUTOSAR_IN_Depth_ArcCoreStack-main/
     ├── learn_in_depth_labs/
     ├── autosar/
@@ -95,11 +101,6 @@ The general workflow explored in this project includes:
     ├── make/
     ├── libraries/
     ├── tool/
-    │   └── OS Configuration/
-    │       ├── build done.png
-    │       ├── Build.png
-    │       ├── Keil_Sim.png
-    │       └── OS Configuration.png
     └── learn_in_depth.sh
 ```
 
