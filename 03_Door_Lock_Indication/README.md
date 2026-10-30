@@ -47,9 +47,9 @@ ARTOP was used to configure the AUTOSAR model and generate the required RTE file
 
 The generated files provide the interfaces required by the application software components.
 
-![RTE Generation](mdImages/Generation%20RTE%20Generation.png)
+![RTE Generation](mdImages/RTE Generation.png)
 
-![RTE Generation - Second View](mdImages/SRTE%202.png)
+![RTE 2Generation](mdImages/RTE 2Generation.png)
 
 ## Runnable-to-OS Task Mapping
 
@@ -76,7 +76,7 @@ The implementation process involved:
 
 The project includes build scripts and the required project configuration files used during development.
 
-![Keil Development Environment](mdImages/KEIL.png)
+![KEIL S](mdImages/KEIL S.png)
 
 ## Tools and Technologies
 
